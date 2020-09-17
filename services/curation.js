@@ -78,6 +78,10 @@ module.exports = class Curation {
           {
             title: i18n.__("curation.someone"),
             payload: "CURATION_SOMEONE_ELSE"
+          },
+          {
+            title: i18n.__("curation.program3"),
+            payload: "CURATION_PROGRAM_3"
           }
         ]);
         break;

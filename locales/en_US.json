@@ -1,17 +1,17 @@
 {
   "profile": {
-    "greeting": "Welcome to Original Coast Clothing {{user_first_name}}! Click get started to enjoy our sample automated messaging experience. If you want to build a similar one visit https://fb.me/get-sample-oc"
+    "greeting": "Welcome to T-Hub {{user_first_name}}! Thank you for stopping by!"
   },
   "menu": {
     "support": "Customer Support",
     "order": "Order updates",
-    "help": "Talk to an agent",
-    "suggestion": "Outfit suggestions",
+    "help": "Know more about us",
+    "suggestion": "Check out our on-going programs",
     "shop": "Shop now",
     "start_over": "Start over"
   },
   "get_started": {
-    "welcome": "Hi {{userFirstName}}! Welcome to Original Coast Clothing where you'll find styles for every occasion.",
+    "welcome": "Hi {{userFirstName}}! Hello from T-Hub!.Thank you for contacting us",
     "guidance": "At any time, use the menu below to navigate through the features",
     "help": "What we can do to help you today?"
   },
@@ -23,11 +23,12 @@
     "coupon": "Added your coupon to this thread, you can now check out the discounted summer collection"
   },
   "curation": {
-    "prompt": "Are you looking for an outfit for yourself or someone else?",
+    "prompt": "Here are our on-going programs! Please select the following based on your choices.",
     "occasion": "Great! Let's get started. First, is there an occasion in mind?",
     "price": "How much are you looking to spend?",
-    "me": "For me!",
-    "someone": "Someone else",
+    "me": "Lab32",
+    "someone": "Community Program",
+    "program3":"T-Tribe",
     "work": "Work",
     "dinner": "Dinner",
     "party": "Party",
