@@ -87,7 +87,6 @@ module.exports = class Curation {
         break;
 
       case "CURATION_FOR_ME":
-      case "CURATION_SOMEONE_ELSE":
         response = Response.genQuickReply(i18n.__("curation.occasion"), [
           {
             title: i18n.__("curation.work"),
@@ -111,18 +110,15 @@ module.exports = class Curation {
       case "CURATION_OCASION_WORK":
         // Store the user budget preference here
         response = Response.genQuickReply(i18n.__("curation.price"), [
-          {
-            title: "~ $20",
-            payload: "CURATION_BUDGET_20_WORK"
+            {
+              "type":"web_url",
+              "url":"https://t-hub.co/lab32/?utm_source=programcard&utm_medium=website",
+              "title":"Know more about Lab32",
+              "webview_height_ratio": "<compact|tall|full>",
+              "messenger_extensions": "<true|false>",  
+              "fallback_url": "https://t-hub.co/"
           },
-          {
-            title: "~ $30",
-            payload: "CURATION_BUDGET_30_WORK"
-          },
-          {
-            title: "+ $50",
-            payload: "CURATION_BUDGET_50_WORK"
-          }
+      
         ]);
         break;
 
