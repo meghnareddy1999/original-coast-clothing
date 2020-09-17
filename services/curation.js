@@ -114,8 +114,7 @@ module.exports = class Curation {
               "type":"web_url",
               "url":"https://t-hub.co/lab32/?utm_source=programcard&utm_medium=website",
               "title":"Know more about Lab32",
-              "webview_height_ratio": "<compact|tall|full>",
-              "messenger_extensions": "<true|false>",  
+              "webview_height_ratio": "full", 
               "fallback_url": "https://t-hub.co/"
           },
       
